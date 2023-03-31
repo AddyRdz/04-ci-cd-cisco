@@ -13,6 +13,6 @@ jobs:
       - name: 'Install dependencies'
         run : npm install
       - name: 'Test code'
-        run: npm test
+        run: node_modules/.bin/jest
       
   
